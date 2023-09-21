@@ -1,10 +1,4 @@
-
 const AWS =require('aws-sdk');
-
-const querystring = require('querystring');
-const multer = require('multer');
-
-const axios =require('axios');
 
 AWS.config.update({
     accessKeyId: process.env.AWS_KEY,

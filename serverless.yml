@@ -152,7 +152,7 @@ functions:
           path: items/{id}
           method: delete
   demoItem:
-    handler: src/controllers/demo.handler
+    handler: src/controllers/payment_session.handler
     events:
       - http:
           path: product/{priceId}
